@@ -16,7 +16,7 @@
     }
     let s = document.createElement("style");
     s.id = "scrollBarCustom";
-    s.innerHTML = `.down-limit {
+    s.innerHTML = `.down-limit,.page-loginbox {
 			display:none !important;
 		}`;
     document.body.appendChild(s)
